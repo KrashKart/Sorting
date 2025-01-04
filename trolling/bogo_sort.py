@@ -15,4 +15,4 @@ def bogo_sort(arr):
 # !!! long lists could stall the machine
 if __name__ == "__main__":
     res = bogo_sort(sample_lists.RANDOM_XTRA_SMALL)
-    print(verify(res))
+    verify(res)

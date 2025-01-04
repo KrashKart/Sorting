@@ -15,4 +15,4 @@ def stalin_sort(arr):
 
 if __name__ == "__main__":
     res = stalin_sort(sample_lists.RANDOM_SMALL)
-    print(verify(res))
+    verify(res)

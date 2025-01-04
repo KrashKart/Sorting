@@ -30,5 +30,5 @@ def start_merge_sort(arr):
     return merge_sort(arr)
 
 if __name__ == "__main__":
-    res = start_merge_sort(sample_lists.RANDOM_SMALL)
-    print(verify(res))
+    res = start_merge_sort(sample_lists.RANDOM_XTRA_LARGE)
+    verify(res)

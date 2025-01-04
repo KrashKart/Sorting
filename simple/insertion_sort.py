@@ -20,5 +20,5 @@ def insertion_sort(arr):
     return swaps, comparisons, arr
 
 if __name__ == "__main__":
-    res = insertion_sort(sample_lists.RANDOM_SMALL)
-    print(verify(res))
+    res = insertion_sort(sample_lists.RANDOM_XTRA_LARGE)
+    verify(res)

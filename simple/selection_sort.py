@@ -17,5 +17,5 @@ def selection_sort(arr):
     return swaps, comparisons, arr
 
 if __name__ == "__main__":
-    res = selection_sort(sample_lists.RANDOM_SMALL)
-    print(verify(res))
+    res = selection_sort(sample_lists.RANDOM_XTRA_LARGE)
+    verify(res)

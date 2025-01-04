@@ -1,14 +1,21 @@
 import time
 
 def track_sort(func):
-    def wrapper(arr):
+    def wrapper(*args):
+        arr = None
+        for a in args:
+            if type(a) == type([]):
+                arr = a
+        if not a:
+            raise ValueError("Input an array!")
+    
         start_time = time.time()
         if len(arr) > 100:
             print("List is too big to be displayed!")
         else:
             print(f"Initial: {arr}")
 
-        swaps, comparisons, res = func(arr)
+        swaps, comparisons, res = func(*args)
 
         if len(arr) > 100:
             print("List is too big to be displayed!")

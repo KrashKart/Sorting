@@ -22,4 +22,4 @@ def sleep_sort(arr):
 # beware, a list too long may result in not enough cpus!
 if __name__ == "__main__":
     res = sleep_sort(sample_lists.RANDOM_XTRA_SMALL)
-    print(verify(res))
+    verify(res)

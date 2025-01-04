@@ -2,19 +2,23 @@
 A compilation of actual and trolling sorting algorithms written in Python. Made for fun.
 
 ## Why Python?
-Because I love Python and am too lazy to think
+Because I love Python and am too lazy to think in C++ or Java
 
 ## Sorts
 All currently implemented sorting algorithms are listed below:
-- Proper
+- Simple
     - Bubble Sort
     - Insertion Sort
     - Merge Sort
     - Selection Sort
+- Data Structs (for more complex sorting algorithms)
+    - Binary Tree Sort
 - Trolling
     - Bogo Sort
     - Sleep Sort
     - Stalin Sort
+    - Miracle Sort
+    - Gaslight Sort
 
 ## Planned Additions
 The planned additions to the sorting catalogue are as below:
@@ -23,10 +27,8 @@ The planned additions to the sorting catalogue are as below:
     - Heap Sort
     - Binary Tree Sort
 - Trolling
-    - Miracle Sort
     - Bozo Sort
     - Slow Sort
-    - Gaslight Sort
     - Quantum Bogo Sort
 
 ## Utils
